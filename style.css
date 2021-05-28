@@ -105,12 +105,13 @@ display: flex;
     background-color: white;
     margin: 15px 0;
     transform: rotateX(-45deg);
-    box-shadow: 0 3px 10px rgba(255,255,255,0.9);
+    box-shadow: 0 3px 10px rgba(255,255,255,1);
     
 }
 
 .row{
     display: flex;
+    
 }
 .seat:nth-of-type(3) {
     margin-left: 1.5rem;
@@ -134,5 +135,6 @@ display: flex;
   }
   
   p.text span {
+      font-size:25px;
     color:crimson;
   }
